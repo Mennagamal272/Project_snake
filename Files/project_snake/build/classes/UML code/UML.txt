@@ -1,0 +1,53 @@
++----------------------------------+
+|         Projeect_snake           |
+
+ - WIDTH: int                     
+ - HEIGHT: int                    
+ - ROWS: int                      
+ - COLUMNS: int                   
+ - SQUARE_SIZE: int               
+ - RIGHT: int                     
+ - LEFT: int                      
+ - UP: int                        
+ - DOWN: int                      
+ - currentDirection: int          
+ - score: int                     
+ - bestScore: int                 
+ - fruitEaten: int                
+ - pause: boolean                 
+ - gameOver: boolean              
+ - gc: GraphicsContext            
+ - snake_body: LinkedList<Point>  
+ - snake_head: Point              
+ - timeline: Timeline             
+ - mediaPlayer: MediaPlayer       
+ - colorComboBox: ComboBox<String>
+ - food: Image                    
+ - foodX: int                     
+ - foodY: int                     
+ - selectedColor: String          
+ - image1: Image                  
+ - image2: Image                  
+ - image3: Image                  
+ - imageView1: ImageView          
+ - imageView2: ImageView          
+ - imageView3: ImageView          
+ - play: Button                   
+ - btnsitting: Button             
+ - back1: Button                  
+ - back2: Button                  
+ - on: Button                     
+ - off: Button                    
+ - exit: Button                   
+ - about: Button                  
+ - t1: Label                      
+ - t2: Label                      
+ - t3: Label                      
+ - t4: Label                      
+ - t5: Label                      
+ - t6: Label                      
+ - t7: Label                      
+ - t8: Label                      
+ - t9: Label                    
+ +start(primaryStage: Stage)     
+ -moving_snake()                 

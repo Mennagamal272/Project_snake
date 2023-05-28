@@ -1,0 +1,51 @@
++--------------------------------+
+|       Projeect_snake           |
++--------------------------------+
+| - WIDTH: int                   |
+| - HEIGHT: int                  |
+| - ROWS: int                    |
+| - COLUMNS: int                 |
+| - SQUARE_SIZE: int             |
+| - RIGHT: int                   |
+| - LEFT: int                    |
+| - UP: int                      |
+| - DOWN: int                    |
+| - score: int                   |
+| - bestScore: int               |
+| - fruitEaten: int              |
+| - currentDirection: int        |
+| - pause: boolean               |
+| - gameOver: boolean            |
+| - FOOD_IMAGES: String[]        |
+| - gc: GraphicsContext          |
+| - snake_body: LinkedList       |
+| - snake_head: Point            |
+| - timeline: Timeline           |
+| - mediaPlayer: MediaPlayer     |
+| - colorComboBox: ComboBox      |
+| - speedComboBox: ComboBox      |
+| - food: Image                  |
+| - foodX: int                   |
+| - foodY: int                   |
+| - selectedColor: String        |
+| - selectedSpeed: String        |
+| - speed: double                |
++--------------------------------+
+ + start(Stage): void           
+ + moving_snake(): void         
+ + buliding_snake(): void       
+ + drawing_snake(): void        
+ + making_food(): void          
+ + drawing_food(): void         
+ + eating_food(): void          
+ + background(): void           
+ + score(): void                
+ + bestScore(): void            
+ + fruitEaten(): void           
+ + gameOver(): void             
+ + pauseGame(): void            
+ + resumeGame(): void           
+ + restartGame(): void          
+ + music(): void                
+ + changeColor(String): void    
+ + speedCombobox(String): void  
